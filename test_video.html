@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hero Video Full Width Test</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #050d18; color: #fff; font-family: sans-serif; }
+
+    /* Layout simulation */
+    .header-sidebar {
+      position: fixed;
+      left: 0; top: 0; bottom: 0;
+      width: 300px;
+      background: #040b14;
+      border-right: 1px solid #222;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    main {
+      margin-left: 300px;
+    }
+
+    @media (max-width: 1199px) {
+      .header-sidebar { display: none; }
+      main { margin-left: 0; }
+    }
+
+    /* Hero section */
+    .hero {
+      width: 100%;
+      min-height: 100vh;
+      position: relative;
+      padding: 80px 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* move text to left/center-left */
+      padding-left: 10%; /* some offset from left */
+      overflow: hidden;
+      container-type: size;
+    }
+
+    .hero .hero-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 100cqw;
+      width: 100cqh;
+      transform: translate(-50%, -50%) rotate(-90deg);
+      transform-origin: center center;
+      object-fit: cover;
+      object-position: top center; /* "top" becomes visual "left" */
+      z-index: 1;
+    }
+
+    .hero:before {
+      content: "";
+      background: rgba(4, 11, 20, 0.4);
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+    .hero .container {
+      position: relative;
+      z-index: 3;
+      text-align: left; /* Align text to left */
+    }
+
+    .hero h2 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 4rem); /* 64px on desktop */
+      font-weight: 700;
+      letter-spacing: -2px;
+    }
+
+    .hero p {
+      margin: 5px 0 0 0;
+      font-size: clamp(16px, 2.5vw, 22px);
+    }
+  </style>
+</head>
+<body>
+  <div class="header-sidebar">Sidebar (300px)</div>
+  <main>
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"
+             src="assets/video/From Klickpin.com- Classy wedding centerpiece ideas that instantly upgrade your space style or celebration without much effort for creators who lo.mp4">
+      </video>
+      <div class="container">
+        <h2>ANISH KUMAR</h2>
+        <p>I'M A PASSIONATE AI-PRODUCT ENGINEER</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
