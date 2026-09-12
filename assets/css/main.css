@@ -2123,3 +2123,148 @@ section,
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Honors Section
+--------------------------------------------------------------*/
+.honors-featured {
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.honors-featured:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.honors-content {
+  padding-right: 30px;
+}
+
+.honors-headline {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--heading-color);
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, var(--accent-color) 0%, #fff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.honors-tagline {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.honors-awarded-by {
+  font-size: 16px;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 6px 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid var(--accent-color);
+  border-radius: 4px;
+}
+
+.honors-desc {
+  font-size: 15px;
+  color: #aaa;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.honors-actions .watch-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  background: var(--accent-color);
+  color: var(--background-color);
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.honors-actions .watch-btn:hover {
+  background: #fff;
+  color: var(--accent-color);
+}
+
+/* Media Showcase */
+.honors-media-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.honors-video-wrapper {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  position: relative;
+  background: #000;
+}
+
+.honors-video {
+  width: 100%;
+  display: block;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+.honors-thumbnails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.honors-thumb {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  aspect-ratio: 16 / 9;
+}
+
+.honors-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.honors-thumb:hover img {
+  transform: scale(1.1);
+}
+
+.thumb-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.thumb-overlay i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.honors-thumb:hover .thumb-overlay {
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .honors-content { padding-right: 0; margin-bottom: 30px; }
+}
