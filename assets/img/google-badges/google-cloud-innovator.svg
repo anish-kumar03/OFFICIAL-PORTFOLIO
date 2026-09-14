@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+    <!-- Subtle gradient background -->
+    <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#f8f9fa" />
+            <stop offset="100%" stop-color="#e8eaed" />
+        </linearGradient>
+    </defs>
+    <rect width="400" height="300" fill="url(#bg)" rx="12" ry="12" />
+    
+    <!-- Google Colors Accents -->
+    <rect x="160" y="100" width="20" height="20" fill="#4285F4" rx="4"/>
+    <rect x="185" y="100" width="20" height="20" fill="#EA4335" rx="4"/>
+    <rect x="210" y="100" width="20" height="20" fill="#FBBC05" rx="4"/>
+    <rect x="235" y="100" width="20" height="20" fill="#34A853" rx="4"/>
+
+    <!-- Text -->
+    <text x="200" y="160" font-family="'Product Sans', 'Roboto', sans-serif" font-size="24" font-weight="bold" fill="#202124" text-anchor="middle">Cloud Innovator</text>
+    <text x="200" y="190" font-family="'Product Sans', 'Roboto', sans-serif" font-size="16" fill="#5f6368" text-anchor="middle">Placeholder Image</text>
+</svg>
