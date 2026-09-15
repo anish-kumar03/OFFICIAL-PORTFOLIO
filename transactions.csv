@@ -1,0 +1,101 @@
+TransactionID,Date,Amount,Category,Description
+TXN-0001,2026-08-27,262.37,Hardware,Mock expense
+TXN-0002,2026-08-19,466.34,Marketing,Mock expense
+TXN-0003,2026-08-24,362.64,Marketing,Mock expense
+TXN-0004,2026-08-31,61.89,Travel,Mock expense
+TXN-0005,2026-09-04,300.16,Marketing,Mock expense
+TXN-0006,2026-08-20,321.56,Travel,Mock expense
+TXN-0007,2026-09-02,148.65,Office Supplies,Mock expense
+TXN-0008,2026-08-22,467.42,Hardware,Mock expense
+TXN-0009,2026-08-19,105.31,Marketing,Mock expense
+TXN-0010,2026-09-09,58.82,Marketing,Mock expense
+TXN-0011,2026-09-06,266.42,Travel,Mock expense
+TXN-0012,2026-09-06,330.26,Software,Mock expense
+TXN-0013,2026-08-21,187.98,Marketing,Mock expense
+TXN-0014,2026-08-19,103.22,Office Supplies,Mock expense
+TXN-0015,2026-09-03,486.78,Travel,Mock expense
+TXN-0016,2026-09-14,221.67,Travel,Mock expense
+TXN-0017,2026-09-13,485.67,Software,Mock expense
+TXN-0018,2026-08-31,227.18,Travel,Mock expense
+TXN-0019,2026-09-11,115.44,Marketing,Mock expense
+TXN-0020,2026-09-14,76.02,Marketing,Mock expense
+TXN-0021,2026-08-27,187.03,Office Supplies,Mock expense
+TXN-0022,2026-08-28,47.16,Marketing,Mock expense
+TXN-0023,2026-09-12,117.55,Software,Mock expense
+TXN-0024,2026-09-12,166.42,Office Supplies,Mock expense
+TXN-0025,2026-09-14,490.25,Travel,Mock expense
+TXN-0026,2026-08-18,344.73,Hardware,Mock expense
+TXN-0027,2026-08-30,221.06,Hardware,Mock expense
+TXN-0028,2026-08-19,100.33,Software,Mock expense
+TXN-0029,2026-08-25,32.79,Software,Mock expense
+TXN-0030,2026-09-09,378.69,Marketing,Mock expense
+TXN-0031,2026-09-06,439.01,Travel,Mock expense
+TXN-0032,2026-09-03,207.13,Software,Mock expense
+TXN-0033,2026-09-06,41.63,Software,Mock expense
+TXN-0034,2026-08-30,411.8,Hardware,Mock expense
+TXN-0035,2026-08-29,370.79,Travel,Mock expense
+TXN-0036,2026-09-05,45.09,Marketing,Mock expense
+TXN-0037,2026-08-24,41.35,Marketing,Mock expense
+TXN-0038,2026-08-24,168.45,Software,Mock expense
+TXN-0039,2026-09-07,268.09,Marketing,Mock expense
+TXN-0040,2026-09-01,167.95,Marketing,Mock expense
+TXN-0041,2026-08-25,12.54,Software,Mock expense
+TXN-0042,2026-08-30,393.09,Office Supplies,Mock expense
+TXN-0043,2026-09-01,269.08,Marketing,Mock expense
+TXN-0044,2026-08-21,54.67,Travel,Mock expense
+TXN-0045,2026-08-27,445.48,Office Supplies,Mock expense
+TXN-0046,2026-09-08,370.61,Travel,Mock expense
+TXN-0047,2026-08-21,233.97,Marketing,Mock expense
+TXN-0048,2026-08-20,395.32,Marketing,Mock expense
+TXN-0049,2026-08-25,413.22,Travel,Mock expense
+TXN-0050,2026-08-17,327.3,Software,Mock expense
+TXN-0051,2026-09-11,344.28,Software,Mock expense
+TXN-0052,2026-08-22,89.31,Software,Mock expense
+TXN-0053,2026-08-16,317.85,Travel,Mock expense
+TXN-0054,2026-08-24,238.89,Travel,Mock expense
+TXN-0055,2026-09-13,236.91,Marketing,Mock expense
+TXN-0056,2026-08-26,465.6,Office Supplies,Mock expense
+TXN-0057,2026-08-17,411.7,Travel,Mock expense
+TXN-0058,2026-08-26,457.52,Travel,Mock expense
+TXN-0059,2026-09-05,58.36,Marketing,Mock expense
+TXN-0060,2026-08-28,278.65,Software,Mock expense
+TXN-0061,2026-09-06,281.37,Software,Mock expense
+TXN-0062,2026-09-04,59.62,Travel,Mock expense
+TXN-0063,2026-08-20,496.25,Office Supplies,Mock expense
+TXN-0064,2026-09-08,79.64,Travel,Mock expense
+TXN-0065,2026-09-10,483.89,Software,Mock expense
+TXN-0066,2026-08-17,225.8,Software,Mock expense
+TXN-0067,2026-09-04,326.35,Hardware,Mock expense
+TXN-0068,2026-09-09,262.69,Marketing,Mock expense
+TXN-0069,2026-09-11,284.79,Travel,Mock expense
+TXN-0070,2026-09-05,273.91,Office Supplies,Mock expense
+TXN-0071,2026-08-30,445.18,Software,Mock expense
+TXN-0072,2026-09-07,277.02,Marketing,Mock expense
+TXN-0073,2026-08-27,475.53,Office Supplies,Mock expense
+TXN-0074,2026-09-13,452.27,Office Supplies,Mock expense
+TXN-0075,2026-09-11,74.15,Marketing,Mock expense
+TXN-0076,2026-09-07,200.84,Marketing,Mock expense
+TXN-0077,2026-08-22,154.26,Software,Mock expense
+TXN-0078,2026-08-25,160.0,Marketing,Mock expense
+TXN-0079,2026-09-11,245.27,Office Supplies,Mock expense
+TXN-0080,2026-08-18,186.99,Marketing,Mock expense
+TXN-0081,2026-09-14,475.5,Hardware,Mock expense
+TXN-0082,2026-08-25,213.67,Marketing,Mock expense
+TXN-0083,2026-08-25,184.01,Travel,Mock expense
+TXN-0084,2026-09-15,22.57,Travel,Mock expense
+TXN-0085,2026-08-29,234.91,Marketing,Mock expense
+TXN-0086,2026-08-25,114.33,Hardware,Mock expense
+TXN-0087,2026-09-11,159.24,Hardware,Mock expense
+TXN-0088,2026-09-14,302.96,Software,Mock expense
+TXN-0089,2026-09-01,196.5,Travel,Mock expense
+TXN-0090,2026-09-02,25.46,Travel,Mock expense
+TXN-0091,2026-08-24,164.98,Office Supplies,Mock expense
+TXN-0092,2026-09-04,467.71,Software,Mock expense
+TXN-0093,2026-09-07,309.32,Office Supplies,Mock expense
+TXN-0094,2026-09-01,437.05,Marketing,Mock expense
+TXN-0095,2026-09-07,149.98,Hardware,Mock expense
+TXN-0096,2026-09-09,310.95,Marketing,Mock expense
+TXN-0097,2026-08-20,268.33,Software,Mock expense
+TXN-0098,2026-09-11,437.11,Marketing,Mock expense
+TXN-0099,2026-09-10,29.74,Office Supplies,Mock expense
+TXN-0100,2026-08-20,469.43,Office Supplies,Mock expense
