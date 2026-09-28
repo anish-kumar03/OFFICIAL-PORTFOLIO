@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Give the image a meaningful name
+    image: anish-portfolio
+    # Give the container a meaningful name
+    container_name: anish-portfolio
+    ports:
+      # Expose host port 8080 to container port 80
+      - "8080:80"
+    # Sensible restart policy
+    restart: unless-stopped

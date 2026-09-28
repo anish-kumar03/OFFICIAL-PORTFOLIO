@@ -278,6 +278,67 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
+## 🐳 Docker Deployment
+
+The portfolio can be easily containerized and run locally or on a server using Docker.
+
+### Requirements
+- Docker Desktop or Docker Engine installed on your system.
+
+### Option 1: Docker CLI
+
+**Build the image:**
+```bash
+docker build -t anish-portfolio .
+```
+
+**Run the container:**
+```bash
+docker run -d -p 8080:80 --name anish-portfolio anish-portfolio
+```
+
+**Access the website:**
+Open your browser and navigate to: `http://localhost:8080`
+
+**Stop the container:**
+```bash
+docker stop anish-portfolio
+docker rm anish-portfolio
+```
+
+**View logs:**
+```bash
+docker logs anish-portfolio
+```
+
+### Option 2: Docker Compose (Recommended)
+
+**Start the container:**
+```bash
+docker compose up -d --build
+```
+This will build the image and run the container in the background. Access it at `http://localhost:8080`.
+
+**View running containers:**
+```bash
+docker ps
+```
+
+**Stop the container:**
+```bash
+docker compose down
+```
+
+### 🛠️ Troubleshooting
+
+- **`port 8080 already in use`**: If another service is using port 8080, change the mapping in the run command or `docker-compose.yml`. For example, use `-p 8081:80`.
+- **`Docker daemon not running`**: Ensure Docker Desktop is open and running on your machine.
+- **`assets not loading`**: Clear your browser cache or perform a hard refresh (`Ctrl + F5`). The container uses Nginx with caching headers.
+- **`container immediately stopping`**: View the logs using `docker logs anish-portfolio` to see if there's an Nginx configuration error.
+- **`Windows firewall/network access issues`**: If accessing from another device on the same network, make sure your Windows Firewall allows incoming connections on port 8080.
+
+---
+
 ## 🤝 Contact
 
 Anish Gupta
